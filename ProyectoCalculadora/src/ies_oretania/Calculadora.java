@@ -20,6 +20,12 @@ public class Calculadora {
 		suma = num1 + num2;
 		
 		System.out.println("La suma de los dos números es: " + suma);
+		
+		//resta
+		int resta;
+		resta = num1 - num2;
+		
+		System.out.println("La resta de los dos números es: " + resta);
 	
 
 	}
