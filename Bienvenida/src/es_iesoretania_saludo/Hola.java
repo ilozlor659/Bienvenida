@@ -10,6 +10,7 @@ public static void main(String[] args) {
 		int num1;
 		int num2;
 		int num3;
+		int num4;
 		int total;
 		
 		System.out.println("Introduce un número:");
@@ -18,9 +19,11 @@ public static void main(String[] args) {
 		num2 = sc.nextInt();
 		System.out.println("Introduce otro número:");
 		num3 = sc.nextInt();
+		System.out.println("Introduce otro número:");
+		num4 = sc.nextInt();
 		
-		total = num1 + num2 + num3;
-		System.out.println("La suma de los tres números es: " + total);
+		total = num1 + num2 + num3 + num4;
+		System.out.println("La suma de los cuatro números es: " + total);
 
 
 	}
