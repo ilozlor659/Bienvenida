@@ -17,7 +17,6 @@ public static void main(String[] args) {
 		num2 = sc.nextInt();
 		
 		total = num1 + num2;
-		
 		System.out.println("La suma de los dos números es: " + total);
 
 
