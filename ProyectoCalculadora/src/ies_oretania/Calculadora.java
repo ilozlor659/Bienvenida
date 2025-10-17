@@ -26,6 +26,12 @@ public class Calculadora {
 		resta = num1 - num2;
 		
 		System.out.println("La resta de los dos números es: " + resta);
+		
+		//multiplicación
+		int multiplicacion;
+		multiplicacion = num1 * num2;
+		
+		System.out.println("La multiplicación de los dos números es: " + multiplicacion);
 	
 
 	}
