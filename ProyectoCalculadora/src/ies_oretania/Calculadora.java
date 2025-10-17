@@ -32,6 +32,13 @@ public class Calculadora {
 		multiplicacion = num1 * num2;
 		
 		System.out.println("La multiplicación de los dos números es: " + multiplicacion);
+		
+		//división
+		int division;
+		division = num1 / num2;
+		
+		System.out.println("La división de los números es: " + division);
+		
 	
 
 	}
