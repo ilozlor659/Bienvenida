@@ -38,6 +38,10 @@ public class Calculadora {
 		System.out.printf("La multiplicación de los dos números es: %.2f \n", multiplicacion);
 		
 		//división y resto
+		//Mensaje de que no se puede dividir entre 0, nuevo respecto a la versión 1.6
+		if (num1 == 0 || num2 == 0) {
+			System.out.println("No se puede dividir entre 0.");
+		}
 		double division;
 		division = num1 / num2;
 		double resto;
