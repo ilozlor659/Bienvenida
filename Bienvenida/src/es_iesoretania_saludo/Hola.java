@@ -6,6 +6,7 @@ public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 	
 		System.out.println("Hola bro");
+		System.out.println("Vamos a hacer una suma");
 		int num1;
 		int num2;
 		int total;
